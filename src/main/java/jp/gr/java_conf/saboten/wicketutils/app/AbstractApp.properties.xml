@@ -1,0 +1,61 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+<entry key="LabelIfEmpty">nbsp;</entry>
+<!-- <entry key="LabelPrefix"></entry>
+<entry key="LabelSuffix"></entry> -->
+
+<entry key="MultiLineLabelIfNull">&amp;nbsp;</entry>
+
+<entry key="LinkLabelIfDisabled">nbsp;</entry>
+
+<entry key="NumberLabelIfNull">-</entry>
+<entry key="NumberLabelFormat">#,##0.###</entry>
+
+<entry key="DateLabelIfEmpty">-</entry>
+<entry key="DateLabelFormat">yyyy/MM/dd</entry>
+<entry key="TimeLabelIfEmpty">-</entry>
+<entry key="TimeLabelFormat">HH:mm:ss</entry>
+<entry key="DateTimeLabelIfEmpty">-</entry>
+<entry key="DateTimeLabelFormat">yyyy/MM/dd HH:mm:ss</entry>
+
+<!-- DateField
+<entry key="IConverter.UnAvailableDate">'${label}' '${input}'は日付として不適切です。</entry> -->
+<entry key="DateFieldFormat">yyyy/MM/dd</entry>
+<entry key="SqlDateConverterFormat">yyyy/MM/dd</entry>
+
+<!-- DateTimeField -->
+<entry key="DateTimeField_date">${fieldname}の年月日</entry>
+<entry key="DateTimeField_hour">${fieldname}の時間</entry>
+<entry key="DateTimeField_minute">${fieldname}の分</entry>
+<entry key="DateTimeField_hour.nullValid">--</entry>
+<entry key="DateTimeField_minute.nullValid">--</entry>
+<entry key="missingInputError">'${fieldname}'の年月日・時・分を正しく入力して下さい。</entry>
+
+<!-- EnumConverter -->
+<entry key="EnumConverter">'${input}' は  ${type}型として適切ではありません。</entry>
+
+<!--
+<entry key="ConfirmMsg">宜しいですか？</entry>
+<entry key="AjaxConfirmMsg">宜しいですか？</entry>
+ -->
+
+<!-- Validators -->
+<entry key="HalfDigitHyphenValidator">'${label}' は半角数字とハイフンのみで入力して下さい。</entry>
+<entry key="HalfDigitValidator">'${label}' は半角数字で入力して下さい。</entry>
+<entry key="HalfAlphaDigitValidator">'${label}' は半角英数字で入力して下さい。</entry>
+<entry key="HalfAlphaDigitSymbolValidator">'${label}' は半角英数字および半角記号で入力して下さい。</entry>
+<entry key="HalfAlphaDigitSymbolSpaceValidator">'${label}' は半角英数字および半角記号・半角スペースで入力して下さい。</entry>
+<entry key="HalfKanaValidator">'${label}' は半角カタカナで入力して下さい。</entry>
+<entry key="AllHalfCharValidator">'${label}' は半角文字で入力して下さい。</entry>
+<entry key="FullKanaValidator">'${label}' はカタカナ（全角）で入力して下さい。</entry>
+<entry key="FullHiraganaValidator">'${label}' はひらがなで入力して下さい。</entry>
+<entry key="AllFullCharValidator">'${label}' は全角文字で入力して下さい。</entry>
+<entry key="TelNumberValidator">'${label}' は適切な電話番号ではありません。</entry>
+<entry key="ZipValidator">'${label}' は適切な郵便番号ではありません。</entry>
+<entry key="UploadFileExtValidator">[${label}] '${input}'は許可されている拡張子( ${exts} )ではありません</entry>
+<entry key="DuplicateValidator">'${label}' は重複する値です。</entry>
+<entry key="ExistValidator">'${label}' は存在しない値です。</entry>
+<entry key="CharValidator">'${label}' には使用できない文字{${ngchar}}が含まれています。</entry>
+
+</properties>

@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" xml:lang="ja" lang="ja">
+<body>
+<wicket:panel>
+	<span style="white-space: nowrap;">
+    	<input type="text" wicket:id="DateTimeField_date" size="12" />
+    	<span wicket:id="DateTimeField_timeContainer">
+    		<select wicket:id="DateTimeField_hour" />
+    		<wicket:enclosure>
+    		&nbsp;:&nbsp;<select wicket:id="DateTimeField_minute" />
+    		</wicket:enclosure>
+    	</span>
+  	</span>
+</wicket:panel>
+</body>
+</html>
