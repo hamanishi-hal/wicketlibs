@@ -54,7 +54,7 @@ public abstract class SortableProvider<T,S> extends SortableDataProvider<T,S> {
          };
 	}
 
-	public Iterator<? extends T> iterator(int first, int count) {
+	public Iterator<? extends T> iterator(long first, long count) {
 		return getList(count, first, getSort().getProperty(), getSort().isAscending())
 			.iterator();
 	}
@@ -70,7 +70,7 @@ public abstract class SortableProvider<T,S> extends SortableDataProvider<T,S> {
 //		logger.debug("**** size is detached");
 	}
 
-	public abstract List<? extends T> getList(int limit, int offset, S sortKey, boolean isAsc);
+	public abstract List<? extends T> getList(long limit, long offset, S sortKey, boolean isAsc);
 
 	public abstract long getSize();
 }
